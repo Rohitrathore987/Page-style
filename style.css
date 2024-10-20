@@ -70,9 +70,10 @@ button{
     margin-bottom: 20px;
 }
 button:hover{
-    background-color:navy;
+    background-color:rgb(92, 168, 168);
     color: white;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 .right{
     height: 100%;
@@ -83,6 +84,7 @@ button:hover{
     height: 100%;
     width: 100%;
     border-radius: 10px;
+
 }
     
 @media (min-width:200px)and (max-width:680px) {
@@ -108,6 +110,7 @@ button:hover{
     .left h2{
         font-size:1.9em ;
         font-weight: 500;
+        padding-bottom: 10px;
     } 
     .left p{
         font-size: 1.5em;
@@ -115,6 +118,9 @@ button:hover{
     }
     .right{
         width: 100%;
+    }
+    .right img{
+        padding-bottom: 20px;
     }
 
     
